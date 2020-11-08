@@ -1,8 +1,8 @@
 ---
 title: Vision-based Manipulator movement with Fetch
-summary: Implemented a visual-feedback based method to guide the Fetch mobile manipulator’s end-effector to reach the target object without using AR-markers `video`.
+summary: Implemented a visual-feedback based method to guide the Fetch mobile manipulator’s end-effector to reach the target object without using AR-markers. `video`.
 tags:
-- Perception in Robotics
+- Demo
 date: "2019-04-23T00:00:00Z"
 
 # Optional external URL for project (replaces project detail page).

@@ -1,9 +1,9 @@
 ---
-title: Denoising and Stacked Autoencoders
-summary: Built & evaluated denoising capabilities of a denoising autoencoder with different levels of noise. Trained a stacked autoencoder layer-by-layer in an unsupervised fashion, & fine-tuned the network with the classifier.
+title: AI Pacman Agent
+summary: Comprehensive implementation of AI methods such as DFS, BFS, UCS, A* search, minimax, expectimax, and alpha-beta pruning to create Pacman in a multi-agent environment using Python.
 tags:
-- Deep Learning
-date: "2016-04-27T00:00:00Z"
+- Artificial Intelligence
+date: "2018-07-15T00:00:00Z"
 
 # Optional external URL for project (replaces project detail page).
 external_link: ""

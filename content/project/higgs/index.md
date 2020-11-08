@@ -1,9 +1,9 @@
 ---
-title: Denoising and Stacked Autoencoders
-summary: Built & evaluated denoising capabilities of a denoising autoencoder with different levels of noise. Trained a stacked autoencoder layer-by-layer in an unsupervised fashion, & fine-tuned the network with the classifier.
+title: Higgs Boson Particle discovery
+summary: Performed exploratory data analysis, and compared classification of ATLAS experiment events using advanced machine learning techniques such as XGBoost and neural networks.
 tags:
-- Deep Learning
-date: "2016-04-27T00:00:00Z"
+- Machine Learning
+date: "2019-02-15T00:00:00Z"
 
 # Optional external URL for project (replaces project detail page).
 external_link: ""
