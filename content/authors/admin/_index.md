@@ -6,21 +6,21 @@ title: Rashmeet Kaur Nayyar
 superuser: true
 
 # Role/position
-role: Research Assistant
+role: Ph.D., Computer Science
 
 # Organizations/Affiliations
 organizations:
 - name: Arizona State University
-  url: ""
+  url: "https://www.asu.edu/"
 
 # Short bio (displayed in user profile at end of posts)
 bio: My research focuses on key Artificial Intelligence principles to help build efficient systems that can reason about, plan, and act under uncertainty.
 
 interests:
 - Artificial Intelligence
-- Probabilistic Reasoning
-- Hierarchical Planning with abstractions
 - Reinforcement Learning
+- Hierarchical Planning with abstractions
+- Probabilistic Reasoning
 
 # education:
 #   courses:

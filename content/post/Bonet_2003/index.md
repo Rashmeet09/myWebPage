@@ -1,30 +1,29 @@
 ---
-title: 'Academic: the website builder for Hugo'
-subtitle: 'Create a beautifully simple website in under 10 minutes :rocket:'
-summary: Create a beautifully simple website in under 10 minutes.
+title: 'Labeled RTDP: Improving the Convergence of Real-Time Dynamic Programming'
+subtitle: 'The paper addresses the problem of speeding up the final convergence of RTDP, a heuristic search-DP algorithm to produce optimal policies for fully observable non-deterministic (more specifically, stochastic shortest path) problems faster compared to the existing search algorithms.'
+summary: ''
 authors:
 - admin
-- 吳恩達
 tags:
-- Academic
-- 开源
+- Planning
 categories:
-- Demo
-- 教程
-date: "2016-04-20T00:00:00Z"
-lastmod: "2019-04-17T00:00:00Z"
+- Paper critiques
+date: "2021-02-12T00:00:00Z"
+lastmod: "2021-02-12T00:00:00Z"
 featured: false
 draft: false
+
+external_link: https://ftp.cs.ucla.edu/pub/stat_ser/R319.pdf
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder.
 # Placement options: 1 = Full column width, 2 = Out-set, 3 = Screen-width
 # Focal point options: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight
-image:
-  placement: 2
-  caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/CpkOjOcXdUY)'
-  focal_point: ""
-  preview_only: false
+# image:
+#   placement: 2
+#   caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/CpkOjOcXdUY)'
+#   focal_point: ""
+#   preview_only: false
 
 # Projects (optional).
 #   Associate this post with one or more of your projects.
@@ -34,7 +33,44 @@ image:
 projects: []
 ---
 
-**Create a free website with Academic using Markdown, Jupyter, or RStudio. Choose a beautiful color theme and build anything with the Page Builder - over 40 _widgets_, _themes_, and _language packs_ included!**
+
+**What is the problem being addressed?**
+
+The paper addresses the problem of speeding up the final convergence of RTDP, a heuristic search-DP algorithm to produce optimal policies for fully observable non-deterministic (more specifically, stochastic shortest path) problems faster compared to the existing search algorithms.
+
+
+**Why is that a problem worth solving?**
+
+DP algorithms such as Value Iteration and Policy Iteration have to evaluate the entire state space to produce an optimal policy which makes them time-consuming. A heuristic search-DP algorithm called RTDP focuses on reduced state space and produces sub-optimal policies fast through simulated greedy search trials of the state space, but the final convergence is extremely slow. Another such algorithm, LAO* does not have an anytime behavior. To this end, it is essential to research methods that can produce optimal policies orders of magnitude faster than the existing algorithms, while retaining a focused and anytime behavior. 
+                                                                                                                     
+                                                                                            
+**Approach:**
+
+
+The paper proposes to introduce a labeling scheme into the existing RTDP algorithm to speed up its final convergence and calls it Labeled RTDP.  The RTDP algorithm favors the states with a higher probability of reaching (more relevant states) over the less likely states. However, the less likely states are required to be sampled during the greedy simulations to achieve convergence. Instead of forcing the likely states to be sampled, the authors propose to label the states whose values have converged and avoid visiting them during the trials thereafter. 
+
+To identify such converged states and mark them as solved, the proposed approach finds a greedy envelope for each state s which contains all the states in the greedy policy from the state s obtained from the current value function. If any state with a residual greater than epsilon is found in the envelope, the values for that state and other states above it in the envelope are updated, else the state s is marked as solved. Marked states are avoided for expansion in the further trials and less likely states are sampled thereafter with a higher probability, leading to faster final convergence.
+
+The authors compare the proposed LRTDP algorithm with RTDP, improved LAO*, and value iteration (with different heuristic functions such as h=0 and h_min) and assess their anytime and convergence behavior. 
+
+
+**Limitations:**
+
+- The computation time for h_min is so large that LRTDP+hmin does not outperform VI+h=0 but only remains competitive in spite of LRTDP’s labeling scheme and focused behavior. In fact, LRTDP+hmin often takes the same time as LRTDP+h=0 (includes heuristic computation time) which indicates that one may prefer using LRTDP without a heuristic to avoid the heuristic computation overhead. Thus, methods for faster computation of such heuristics will bring out significant speedups when using LRTDP. 
+
+- LRTDP does not utilize improved heuristics as much as LAO* does. In other words, LRTDP’s benefits are majorly derived from its labeling scheme and a focussed behavior, and improved heuristics do not help LRTDP as much as it helps LAO*. This is because, in LAO*, heuristics help to prune out some states entirely from consideration, while in LRTDP, heuristics help faster convergence of states but do not prune them away to avoid their expansion. 
+
+- The problem of lower probability transitions not getting sampled persists until the states in other transitions are marked as solved. Further modifications in the labeling procedure to account for these probabilities can be researched.
+ 
+
+**Strengths:**
+
+- I like that LRTDP outperforms value iteration and even LAO* in terms of convergence even in the absence of an informative heuristic function. This is because LRTDP’s focussed behavior helps it to learn good estimates of heuristic values. 
+
+- The anytime behavior of LRTDP has significant advantages as it delivers good optimal policies fast and continues to explore the state space to eventually deliver an optimal policy. It also wins in terms of the final convergence which makes the algorithm desirable to use. 
+
+
+<!-- **Create a free website with Academic using Markdown, Jupyter, or RStudio. Choose a beautiful color theme and build anything with the Page Builder - over 40 _widgets_, _themes_, and _language packs_ included!**
 
 [Check out the latest **demo**](https://academic-demo.netlify.com/) of what you'll get in less than 10 minutes, or [view the **showcase**](https://sourcethemes.com/academic/#expo) of personal, project, and business sites.
 
@@ -104,4 +140,4 @@ Feel free to *star* the project on [Github](https://github.com/gcushen/hugo-acad
 
 Copyright 2016-present [George Cushen](https://georgecushen.com).
 
-Released under the [MIT](https://github.com/gcushen/hugo-academic/blob/master/LICENSE.md) license.
+Released under the [MIT](https://github.com/gcushen/hugo-academic/blob/master/LICENSE.md) license. -->
