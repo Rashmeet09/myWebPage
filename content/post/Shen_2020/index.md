@@ -1,6 +1,6 @@
 ---
 title: 'Learning Domain-Independent Planning Heuristics with Hypergraph Networks'
-subtitle: ''
+subtitle: 'The authors address developing a framework to learn generalized domain-independent heuristics for planning without using any available heuristics. The goal is to learn heuristics that can generalize not only across problem instances of different sizes, states, and goals but also across unseen domains.'
 summary: ''
 authors:
 - admin
@@ -36,7 +36,7 @@ projects: []
 
 **What is the problem being addressed?**
 
-TheThe authors address developing a framework to learn generalized domain-independent heuristics for planning without using any available heuristics. The goal is to learn heuristics that can generalize not only across problem instances of different sizes, states, and goals but also across unseen domains.
+The authors address developing a framework to learn generalized domain-independent heuristics for planning without using any available heuristics. The goal is to learn heuristics that can generalize not only across problem instances of different sizes, states, and goals but also across unseen domains.
 
 
 **Why is that a problem worth solving?**

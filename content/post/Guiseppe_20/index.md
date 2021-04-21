@@ -1,7 +1,7 @@
 ---
 title: 'Foundations for Restraining Bolts:Reinforcement Learning with LTLf/LDLf restraining specifications'
 subtitle: 'The paper investigates methods for solving reinforcement learning while conforming to LTL restraining specifications, such that, the restraining bolt accounts for features of the world distinct from the RL agent.'
-summary: 'The paper investigates methods for solving reinforcement learning while conforming to LTL restraining specifications, such that, the restraining bolt accounts for features of the world distinct from the RL agent.'
+summary: ''
 authors:
 - admin
 tags:

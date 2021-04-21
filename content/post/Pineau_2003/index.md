@@ -1,7 +1,7 @@
 ---
 title: 'Point-based value iteration: An anytime algorithm for POMDPs'
-subtitle: ''
-summary: 'The paper addresses the problem of solving large partially observable Markov decision processes (POMDPs) in an anytime manner.'
+subtitle: 'The paper addresses the problem of solving large partially observable Markov decision processes (POMDPs) in an anytime manner.'
+summary: ''
 authors:
 - admin
 tags:

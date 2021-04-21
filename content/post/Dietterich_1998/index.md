@@ -1,6 +1,6 @@
 ---
 title: 'The MAXQ Method for Hierarchical Reinforcement Learning'
-subtitle: ''
+subtitle: 'The authors address the problem of finding recursively optimal policies through methods for hierarchical reinforcement learning (HRL) that are general-purpose, support non-hierarchical execution, preserve the markovian property of subtasks involved, and are not adversely affected by state abstractions. They also address the issue of hierarchical credit assignment often encountered in HRL. '
 summary: ''
 authors:
 - admin

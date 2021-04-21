@@ -1,6 +1,6 @@
 ---
 title: 'Mastering the game of Go without human knowledge '
-subtitle: ''
+subtitle: 'The problem of developing a pure reinforcement learning approach (i.e. without the use of any domain knowledge beyond basic game rules) for the game of Go has been addressed.'
 summary: ''
 authors:
 - admin

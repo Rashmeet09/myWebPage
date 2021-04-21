@@ -1,6 +1,6 @@
 ---
 title: 'Learning generalized relational heuristic networks for model-agnostic planning'
-subtitle: ''
+subtitle: 'This paper proposes a deep learning approach to learn generalized heuristic generation functions (HGFs) that can scale well to unseen problems with different object names and quantities without the use of symbolic action models.'
 summary: ''
 authors:
 - admin
