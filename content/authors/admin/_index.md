@@ -22,14 +22,17 @@ interests:
 - Hierarchical Planning with abstractions
 - Probabilistic Reasoning
 
-# education:
-#   courses:
-#   - course: Ph.D. in Computer Science
-#     institution: Arizona State University
-#     year: 2024
-#   - course: B.E. in Information Technology
-#     institution: Pune Institute of Computer Technology
-#     year: 2017
+education:
+  courses:
+  - course: Ph.D. in Computer Science
+    institution: Arizona State University
+    year: 2020 - present
+  - course: M.S. in Computer Science
+    institution: Arizona State University
+    year: 2018 - 2020
+  - course: B.E. in Information Technology
+    institution: Pune Institute of Computer Technology
+    year: 2013 - 2017
 
 # Social/Academic Networking
 # For available icons, see: https://sourcethemes.com/academic/docs/page-builder/#icons
