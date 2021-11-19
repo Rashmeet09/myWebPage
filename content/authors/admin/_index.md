@@ -59,7 +59,7 @@ social:
   link: https://github.com/Rashmeet09
 - icon: google-scholar
   icon_pack: ai
-  link: https://scholar.google.com/citations?user=vY1_TjMAAAAJ&hl=en&authuser=2
+  link: https://scholar.google.com/citations?user=N2ZUg4YAAAAJ&hl=en&authuser=1
 
 
 # Link to a PDF of your resume/CV from the About widget.
