@@ -8,40 +8,40 @@
   url = "#about"
   weight = 10
 
+[[main]]
+  name = "Publications"
+  url = "#publications"
+  weight = 20
+
 #[[main]]
 #  name = "Talks"
 #  url = "#talks"
-#  weight = 35
+#  weight = 30
 
 [[main]]
   name = "Talks"  #"Featured Publications"
   url = "#featured"
-  weight = 20
+  weight = 30
 
 [[main]]
   name = "Press"
   url = "#press"
-  weight = 30
+  weight = 40
 
 [[main]]
   name = "Awards"
   url = "#awards"
-  weight = 40
+  weight = 50
 
 #[[main]]
 #  name = "Posts"
 #  url = "#posts"
-#  weight = 20
-
-[[main]]
-  name = "Publications"
-  url = "#publications"
-  weight = 50
+#  weight = 60
 
 [[main]]
   name = "Experience"
   url = "#experience"
-  weight = 55
+  weight = 60
 
 [[main]]
   name = "Projects"
@@ -51,21 +51,21 @@
 [[main]]
   name = "Blog"
   url = "#blog"
-  weight = 65
+  weight = 70
 
 #[[main]]
 #  name = "Contact"
 #  url = "#contact"
-#  weight = 60
+#  weight = 80
 
 [[main]] #({{< ref "cv/index.md" >}})]
   name = "CV"
   url = "media/cv.pdf"
-  weight = 70
+  weight = 90
 
 # Link to a PDF of your resume/CV from the menu.
 # To enable, copy your resume/CV to `static/media/cv.pdf` and uncomment the lines below.
 #[[main]]
 #  name = "CV"
 #  url = "media/cv.pdf"
-#  weight = 70
+#  weight = 90
