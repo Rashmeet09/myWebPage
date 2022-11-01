@@ -1,8 +1,8 @@
 ---
-title: "Differential Assessment of Black-Box AI Agents"
+title: "Learning Generalized Policy Automata for Relational Stochastic Shortest Path Problems"
 authors:
+- Rushang Karia
 - Rashmeet Kaur Nayyar
-- Pulkit Verma
 - Siddharth Srivastava
 date: "2022-03-24T00:00:00Z"
 doi: "10.48550/arXiv.2203.13236"
@@ -16,10 +16,10 @@ publishDate: "2022-03-24T00:00:00Z"
 publication_types: ["1"]
 
 # Publication name and optional abbreviated publication name.
-publication: In *The Thirty-Sixth AAAI Conference on Artificial Intelligence, 2022*
-publication_short: In *AAAI, 2022*
+publication: In *The Conference on Neural Information Processing Systems, 2022*
+publication_short: In *NeurIPS, 2022*
 
-abstract: "Much  of  the  research  on  learning  symbolic  models  of  AIagents  focuses  on  agents  with  stationary  models.  This  as-sumption  fails  to  hold  in  settings  where  the  agent’s  capa-bilities  may  change  as  a  result  of  learning,  adaptation,  orother post-deployment modifications. Efficient assessment ofagents in such settings is critical for learning the true capabil-ities of an AI system and for ensuring its safe usage. In thiswork,  we  propose  a  novel  approach  todifferentiallyassessblack-box AI agents that have drifted from their previouslyknown models. As a starting point, we consider the fully ob-servable and deterministic setting. We leverage sparse obser-vations  of  the  drifted  agent’s  current  behavior  and  knowl-edge of its initial model to generate an active querying pol-icy  that  selectively  queries  the  agent  and  computes  an  up-dated model of its functionality. Empirical evaluation showsthat our approach is much more efficient than re-learning theagent model from scratch. We also show that the cost of dif-ferential assessment using our method is proportional to theamount of drift in the agent’s functionality."
+abstract: "Several  goal-oriented  problems  in  the  real-worldcan  be  naturally  expressed  as  Stochastic  ShortestPath Problems (SSPs). However,  the  computa-tional  complexity  of  solving  SSPs  makes  findingsolutions  to  even  moderately  sized  problems  in-tractable.  Currently, existing state-of-the-art plan-ners and heuristics often fail to exploit knowledgelearned  from  solving  other  instances.   This  paperpresents an approach for learningGeneralized Pol-icy Automata(GPA): non-deterministic partial poli-cies that can be used to catalyze the solution pro-cess.   GPAs  are  learned  using  relational,  feature-based  abstractions,  which  makes  them  applicableon broad classes of related problems with differentobject names and quantities.  Theoretical analysisof this approach shows that it guarantees complete-ness and hierarchical optimality.  Our experimentsshow that this approach effectively learns broadlyapplicable policy knowledge in a few-shot fashionand  significantly  outperforms  state-of-the-art  SSPsolvers  on  test  problems  whose  object  counts  arefar greater than those used during training."
 
 # Summary. An optional shortened abstract.
 summary: 
