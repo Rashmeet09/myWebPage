@@ -18,18 +18,53 @@ date_format = "Jan 2006"
 #   Leave `date_end` empty if it's your current employer.
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
 
+
 [[experience]]
   title = "Graduate Research Assistant"
-  company = "Arizona State University"
+  company = "Autonomous Agents and Intelligent Robots, Arizona State University"
   company_url = ""
   location = "USA"
   date_start = "2018-09-15"
   date_end = ""
   description = """ 
-  * Developing an automated physics-based AI system to detect and identify intergalactic clouds. 
-  * Exploring a Graphical model-based Open-Universe Probabilistic Programming approach developed in Bayesian Logic (BLOG) with inference using Markov Chain Monte Caro methods in Java. 
-  * Analyzing UV Spectra obtained from the Cosmic Origins Spectrograph aboard the Hubble Space Telescope. 
-  * Collaborating with Dr. Sanchayeeta Borthakur at the School of Earth and Space Exploration, ASU."""
+  * Researching AI principles to build efficient systems that can reason, plan, & act reliably & safely under uncertainty.
+  * Co‑developing an AI system for non‑AI experts to help them understand robot planning. Evaluating the system’s integrated task and motion planning on Fetch Robot.
+  * Proposed a novel method to automatically learn dynamic abstractions that significantly outperform existing methods.
+  * Learning automatic synthesis of generalized abstract machines/controllers for efficient Reinforcement Learning.
+  * Proposed a novel method to learn true functionality of adaptive black‑box AI agents to ensure safety. """
+
+[[experience]]
+  title = "AI ML Engineer Intern"
+  company = "LinkedIn Corporation"
+  company_url = ""
+  location = "USA"
+  date_start = "2020-05-23"
+  date_end = "2020-08-12"
+  description = """ 
+  * Investigated and proposed a framework for Offline Reinforcement Learning for Task‑oriented Dialogue Agents. """
+
+[[experience]]
+  title = "Graduate Teaching Assistant"
+  company = "Arizona State University"
+  company_url = ""
+  location = "USA"
+  date_start = "2021-08-15"
+  date_end = "2021-12-10"
+  description = """ 
+  * Responsible for co‑designing programming assignments in Robot Operating System (ROS), homeworks, & exams for CSE471: Introduction to Artificial Intelligence.
+  * Created & delivered hands‑on tutorial sessions on topics: Search, Planning, Markov Decision Processes (MDPs), Reinforcement Learning (RL), Statistical Learning, and Probabilistic Inference for a class of 92. Also conducted office hours each week and created rubric for grading homeworks and assignments."""
+
+[[experience]]
+  title = "Graduate Research Assistant"
+  company = "School of Earth and Space Exploration, Arizona State University"
+  company_url = ""
+  location = "USA"
+  date_start = "2018-09-15"
+  date_end = "2020-07-15"
+  description = """ 
+  * Developed an automated physics-based AI system to reliably detect and identify properties of intergalactic clouds using First-order Open-Universe Probablistic logic in collaboration with Dr. Sanchayeeta Borthakur. 
+  * Explored a Graphical model-based Open-Universe Probabilistic Programming approach developed in Bayesian Logic (BLOG) with inference using Markov Chain Monte Caro methods in Java. 
+  * Analyzed UV Spectra obtained from the Cosmic Origins Spectrograph aboard the Hubble Space Telescope."""
 
 
  [[experience]]
@@ -41,9 +76,9 @@ date_format = "Jan 2006"
   date_start = "2020-06-15"
   date_end = "2020-06-19"
   description = """
-  * Taught fundamentals of Artificial Intelligence to about 25 high-school students. 
-  * It was particularly challenging to design the course with advanced topics in a manner easily understandable by the students.
-  * Conducted a week of lectures, practice sessions, and received an amazing feedback."""
+  * Taught fundamentals of Artificial Intelligence (Problem Solving by Search, Classical Planning, and Reinforcement Learning) to about 25 high-school students. 
+  * It was particularly challenging to design the course with advanced topics in a manner easily comprehensible to the students.
+  * Conducted lectures and practical sessions for a week, and received an amazing feedback."""
 
 [[experience]]
   title = "Graduate Student Assistant"
@@ -53,8 +88,9 @@ date_format = "Jan 2006"
   date_start = "2018-08-15"
   date_end = "2018-12-15"
   description = """
-  * Enriched the learning experience for a class of about 150 students for the course “Introduction to Human-Computer Interaction” under Dr. Robert Atkinson. 
-  * Responsible for grading, clarifying doubts, and engaging in insightful discussions. """
+  * Enriched the learning experience for a class of about 150 students for the course CSE 463: Introduction to Human-Computer Interaction under Dr. Robert Atkinson. 
+  * Responsible for grading, clarifying doubts, and engaging in insightful discussions. 
+  """
 
 [[experience]]
   title = "Application Developer"

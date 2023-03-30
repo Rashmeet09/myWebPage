@@ -18,8 +18,9 @@ bio: My research focuses on key Artificial Intelligence principles to help build
 
 interests:
 - Artificial Intelligence
-- Reinforcement Learning
-- Hierarchical Planning with abstractions
+- Autonomous Sequential Decision-making
+- Transfer and Generalization in Planning and Reinforcement Learning
+- Synthesis and analysis of abstractions
 - Probabilistic Reasoning
 
 education:
@@ -45,21 +46,22 @@ social:
 - icon: envelope
   icon_pack: fas
   link: 'mailto:rmnayyar@asu.edu'  # For a direct email link, use "mailto:test@example.org".
-- icon: twitter
-  icon_pack: fab
-  link: https://twitter.com/rashmeet_nayyar
+- icon: google-scholar
+  icon_pack: ai
+  link: https://scholar.google.com/citations?user=N2ZUg4YAAAAJ&hl=en&authuser=1
 - icon: linkedin
   icon_pack: fab
   link: https://www.linkedin.com/in/rashmeetnayyar/
+- icon: twitter
+  icon_pack: fab
+  link: https://twitter.com/rashmeet_nayyar
 - icon: instagram
   icon_pack: fab
   link: https://www.instagram.com/nishi_nayyar/
 - icon: github
   icon_pack: fab
   link: https://github.com/Rashmeet09
-- icon: google-scholar
-  icon_pack: ai
-  link: https://scholar.google.com/citations?user=N2ZUg4YAAAAJ&hl=en&authuser=1
+
 
 
 # Link to a PDF of your resume/CV from the About widget.
@@ -81,5 +83,5 @@ user_groups:
 - Visitors
 ---
 
-I am a Ph.D. student in Computer Science in the School of Computing, Informatics, and Decision Systems Engineering at [Arizona State University](https://www.asu.edu/). I am a member of the [Autonomous Agents and Intelligent Robots (AAIR)](https://aair-lab.github.io/) research group, advised by [Dr. Siddharth Srivastava](https://www.public.asu.edu/~ssriva43/). I research key Artificial Intelligence principles to help build efficient systems that can reason about, plan, and act under uncertainty.
+I'm a Ph.D. student in Computer Science advised by [Dr. Siddharth Srivastava](https://www.public.asu.edu/~ssriva43/) in the [School of Computing and Augmented Intelligence](https://scai.engineering.asu.edu/) at [Arizona State University](https://www.asu.edu/). I'm a member of the [Autonomous Agents and Intelligent Robots (AAIR)](https://aair-lab.github.io/) research group. I primarily research key Artificial Intelligence principles to help build efficient autonomous sequential decision-making systems. My current research focuses on synthesizing abstractions for transfer in planning and reinforcement learning.
 

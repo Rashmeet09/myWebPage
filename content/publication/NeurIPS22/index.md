@@ -4,10 +4,10 @@ authors:
 - Rushang Karia
 - Rashmeet Kaur Nayyar
 - Siddharth Srivastava
-date: "2022-03-24T00:00:00Z"
+date: "2022-05-19T00:00:00Z"
 doi: "10.48550/arXiv.2203.13236"
 # Schedule page publish date (NOT publication's date).
-publishDate: "2022-03-24T00:00:00Z"
+publishDate: "2022-05-19T00:00:00Z"
 
 # Publication type.
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
@@ -30,8 +30,8 @@ featured: false
 
 links:
 - name: Link
-  url: https://ojs.aaai.org/index.php/AAAI/article/download/21223/version/19510/20972
-#url_pdf: http://eprints.soton.ac.uk/352095/1/Cushen-IMV2013.pdf
+  url: https://proceedings.neurips.cc/paper_files/paper/2022/hash/c592fc7e6207f82560ed45fece8d6937-Abstract-Conference.html
+url_pdf: https://proceedings.neurips.cc/paper_files/paper/2022/file/c592fc7e6207f82560ed45fece8d6937-Paper-Conference.pdf
 #url_code: '#'
 #url_dataset: '#'
 # url_poster: 'https://drive.google.com/file/d/1DT8KkyJeq5DB8ondSvQ5m9RCspVUZRkL/view'
@@ -45,7 +45,7 @@ links:
 image:
   caption: ''
   focal_point: ""
-  preview_only: false
+  preview_only: true
 
 # Associated Projects (optional).
 #   Associate this publication with one or more of your projects.

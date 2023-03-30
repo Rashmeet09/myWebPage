@@ -30,8 +30,8 @@ featured: false
 
 links:
 - name: Link
-  url: https://ojs.aaai.org/index.php/AAAI/article/download/21223/version/19510/20972
-#url_pdf: http://eprints.soton.ac.uk/352095/1/Cushen-IMV2013.pdf
+  url: https://ojs.aaai.org/index.php/AAAI/article/view/21223
+url_pdf: https://ojs.aaai.org/index.php/AAAI/article/view/21223/20972
 #url_code: '#'
 #url_dataset: '#'
 # url_poster: 'https://drive.google.com/file/d/1DT8KkyJeq5DB8ondSvQ5m9RCspVUZRkL/view'
@@ -45,7 +45,7 @@ links:
 image:
   caption: ''
   focal_point: ""
-  preview_only: false
+  preview_only: true
 
 # Associated Projects (optional).
 #   Associate this publication with one or more of your projects.

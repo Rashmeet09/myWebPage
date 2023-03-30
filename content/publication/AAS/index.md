@@ -15,7 +15,7 @@ publishDate: "2019-06-11T00:00:00Z"
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
 # 3 = Preprint / Working Paper; 4 = Report; 5 = Book; 6 = Book section;
 # 7 = Thesis; 8 = Patent
-publication_types: ["0"]
+publication_types: ["1"]
 
 # Publication name and optional abbreviated publication name.
 publication: In *234th meeting of American Astronomical Society*
@@ -29,11 +29,11 @@ summary: In this talk, I present a poster on my collaborative interdisciplinary 
 
 # tags:
 # - Source Themes
-featured: true
+featured: false
 
 links:
-# - name: Custom Link
-#   url: http://example.org
+- name: Link
+  url: https://ui.adsabs.harvard.edu/abs/2019AAS...23420305N/abstract
 #url_pdf: http://eprints.soton.ac.uk/352095/1/Cushen-IMV2013.pdf
 #url_code: '#'
 #url_dataset: '#'

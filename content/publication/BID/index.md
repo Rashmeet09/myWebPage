@@ -6,7 +6,7 @@ authors:
 - Omkar Patil
 - Rasika Pawar
 - Amruta Lolage
-date: "2022-12-17T00:00:00Z"
+date: "2018-04-12T00:00:00Z"
 doi: "10.1109/BID.2017.8336569"
 # Schedule page publish date (NOT publication's date).
 publishDate: "2018-04-12T00:00:00Z"
@@ -30,10 +30,10 @@ summary:
 # - Source Themes
 featured: false
 
-# links:
-# - name: Link
-#   url: https://ieeexplore.ieee.org/abstract/document/8336569
-#url_pdf: http://eprints.soton.ac.uk/352095/1/Cushen-IMV2013.pdf
+links:
+- name: Link
+  url: https://ieeexplore.ieee.org/document/8336569
+url_pdf: https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8336569
 #url_code: '#'
 #url_dataset: '#'
 # url_poster: 'https://drive.google.com/file/d/1DT8KkyJeq5DB8ondSvQ5m9RCspVUZRkL/view'

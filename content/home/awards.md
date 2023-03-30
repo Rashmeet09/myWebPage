@@ -18,7 +18,7 @@ date_format = "Jan 2006"
   certificate_url = ""
   date_start = "2020-04-01"
   date_end = ""
-  description = "Awarded among 6 graduate medal winners chosen from hundreds of students nationwide."
+  description = "Awarded among 6 graduate medal winners chosen from hundreds of students nationwide for my interdisciplinary research."
 
 +++
   <!-- url = "https://aas.org/grants-and-prizes/chambliss-astronomy-achievement-student-awards" -->
