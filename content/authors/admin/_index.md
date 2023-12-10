@@ -17,7 +17,7 @@ organizations:
 bio: My research focuses on key Artificial Intelligence principles to help build efficient systems that can reason about, plan, and act under uncertainty.
 
 interests:
-- Learning Abstractions for Transfer and Generalization in Reinforcement Learning (RL)
+- Learning Abstractions for Transfer and Generalization in RL
 # - Synthesis and analysis of abstractions
 # - Probabilistic Reasoning
 - Long‐horizon Planning under Uncertainty
@@ -84,5 +84,5 @@ user_groups:
 - Visitors
 ---
 
-I'm a Computer Science Ph.D. student working with [Dr. Siddharth Srivastava](https://www.public.asu.edu/~ssriva43/) in the [School of Computing and Augmented Intelligence](https://scai.engineering.asu.edu/) at [Arizona State University](https://www.asu.edu/). I'm a member of the [Autonomous Agents and Intelligent Robots (AAIR)](https://aair-lab.github.io/) research group. I primarily research Reinforcement Learning in Artificial Intelligence principles with the goal of building efficient autonomous sequential decision-making systems. Currently, I am focussed on automatically synthesizing temporal and state abstractions for transfer in RL and interleaving planning with RL.
+I'm a Computer Science Ph.D. student working with [Dr. Siddharth Srivastava](https://www.public.asu.edu/~ssriva43/) in the [School of Computing and Augmented Intelligence](https://scai.engineering.asu.edu/) at [Arizona State University](https://www.asu.edu/). I'm a member of the [Autonomous Agents and Intelligent Robots (AAIR)](https://aair-lab.github.io/) research group. I primarily study Reinforcement Learning (RL) with the goal of building efficient autonomous sequential decision-making systems that solve long-horizon problems. Currently, I am focussed on automatically synthesizing temporal and state abstractions for transfer in RL and interleaving planning with RL.
 
