@@ -1,5 +1,5 @@
 ---
-title: "Learning Dynamic Abstract Representations for Sample-Efficient Reinforcement Learning"
+title: "Conditional Abstraction Trees for Sample-efficient Reinforcement Learning"
 authors:
 - Mehdi Dadvar
 - Rashmeet Kaur Nayyar
@@ -16,10 +16,10 @@ publishDate: "2023-02-17T00:00:00Z"
 publication_types: ["1"]
 
 # Publication name and optional abbreviated publication name.
-publication: In *The Conference on Uncertainty in Artificial Intelligence, (In submission) 2023*
+publication: In *The Conference on Uncertainty in Artificial Intelligence, 2023*
 publication_short: In *UAI, 2023*
 
-abstract: "In many real-world problems, the learning agent needs to learn a problem's abstractions and solution simultaneously. However, most such abstractions need to be designed and refined by hand for different problems and domains of application. This paper presents a novel top-down approach for constructing state abstractions while carrying out reinforcement learning. Starting with state variables and a simulator, it presents a novel domain-independent approach for dynamically computing an abstraction based on the dispersion of Q-values in abstract states as the agent continues acting and learning. Extensive empirical evaluation on multiple domains and problems shows that this approach automatically learns abstractions that are finely-tuned to the problem, yield powerful sample efficiency, and result in the RL agent significantly outperforming existing approaches."
+abstract: "In many real-world problems, the learning agent needs to learn a problem’s abstractions and solution simultaneously. However, most such abstractions need to be designed and refined by hand for different problems and domains of application. This paper presents a novel top-down approach for constructing state abstractions while carrying out reinforcement learning (RL). Starting with state variables and a simulator, it presents a novel domain-independent approach for dynamically computing an abstraction based on the dispersion of temporal difference errors in abstract states as the agent continues acting and learning. Extensive empirical evaluation on multiple domains and problems shows that this approach automatically learns semantically rich abstractions that are finely-tuned to the problem, yield strong sample efficiency, and result in the RL agent significantly outperforming existing approaches."
 
 # Summary. An optional shortened abstract.
 summary: 
@@ -30,8 +30,8 @@ featured: false
 
 links:
 - name: Link
-  url: https://arxiv.org/abs/2210.01955
-url_pdf: https://arxiv.org/pdf/2210.01955.pdf
+  url: https://proceedings.mlr.press/v216/dadvar23a.html
+url_pdf: https://proceedings.mlr.press/v216/dadvar23a/dadvar23a.pdf
 #url_code: '#'
 #url_dataset: '#'
 # url_poster: 'https://drive.google.com/file/d/1DT8KkyJeq5DB8ondSvQ5m9RCspVUZRkL/view'
