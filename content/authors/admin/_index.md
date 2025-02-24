@@ -23,17 +23,23 @@ interests:
 - Generalization and Transfer
 - Robotics
 
-education:
-  courses:
-  - course: Ph.D. in Computer Science
-    institution: Arizona State University
-    year: 2020 - present
-  - course: M.S. in Computer Science
-    institution: Arizona State University
-    year: 2018 - 2020
-  - course: B.E. in Information Technology
-    institution: Pune Institute of Computer Technology
-    year: 2013 - 2017
+# education:
+#   courses:
+#   - course: Ph.D. in Computer Science
+#     institution: Arizona State University
+#     year: 2020 - present
+#   - course: M.S. in Computer Science
+#     institution: Arizona State University
+#     year: 2018 - 2020
+#   - course: B.E. in Information Technology
+#     institution: Pune Institute of Computer Technology
+#     year: 2013 - 2017
+
+News:
+- I am organizing GenPlan workshop at AAAI 2025
+- Our paper got accepted at AAAI 2025
+- Our paper got accepted at EAAI 2025
+- I passed my proposal exam in Fall 2024
 
 # Social/Academic Networking
 # For available icons, see: https://sourcethemes.com/academic/docs/page-builder/#icons
