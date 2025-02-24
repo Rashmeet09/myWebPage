@@ -35,11 +35,26 @@ interests:
 #     institution: Pune Institute of Computer Technology
 #     year: 2013 - 2017
 
-News:
-- I am organizing GenPlan workshop at AAAI 2025
-- Our paper got accepted at AAAI 2025
-- Our paper got accepted at EAAI 2025
-- I passed my proposal exam in Fall 2024
+# News:
+# - I am organizing GenPlan workshop at AAAI 2025
+# - Our paper got accepted at AAAI 2025
+# - Our paper got accepted at EAAI 2025
+# - I passed my proposal exam in Fall 2024
+
+news:
+  items:
+  - title: Organizing GenPlan workshop at AAAI 2025
+    date: 2025-03-01
+    link: "#" # Add a link if there's a webpage, otherwise keep "#"
+  - title: Paper accepted at AAAI 2025
+    date: 2025-01-15
+    link: "#" 
+  - title: Paper accepted at EAAI 2025
+    date: 2025-01-15
+    link: "#" 
+  - title: Passed proposal exam in Fall 2024
+    date: 2024-11-03
+    link: "#"
 
 # Social/Academic Networking
 # For available icons, see: https://sourcethemes.com/academic/docs/page-builder/#icons
