@@ -6,7 +6,7 @@ title: Rashmeet Kaur Nayyar
 superuser: true
 
 # Role/position
-role: Ph.D., Computer Science
+role: Ph.D. Candidate, Computer Science
 
 # Organizations/Affiliations
 organizations:
@@ -14,14 +14,13 @@ organizations:
   url: "https://www.asu.edu/"
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research focuses on key Artificial Intelligence principles to help build efficient systems that can reason about, plan, and act under uncertainty.
+bio: My research focuses on learning contextual abstractions for generalization in RL."
+# key Artificial Intelligence principles to help build efficient systems that can reason about, plan, and act under uncertainty.
 
 interests:
-- Learning Abstractions for Transfer and Generalization in RL
-# - Synthesis and analysis of abstractions
-# - Probabilistic Reasoning
-- Long‐horizon Planning under Uncertainty
-- Autonomous Sequential Decision‐making
+- Reinforcement Learning and Planning
+- Learning Abstractions
+- Generalization and Transfer
 - Robotics
 
 education:
@@ -84,5 +83,5 @@ user_groups:
 - Visitors
 ---
 
-I'm a Computer Science Ph.D. student working with [Dr. Siddharth Srivastava](https://www.public.asu.edu/~ssriva43/) in the [School of Computing and Augmented Intelligence](https://scai.engineering.asu.edu/) at [Arizona State University](https://www.asu.edu/). I'm a member of the [Autonomous Agents and Intelligent Robots (AAIR)](https://aair-lab.github.io/) research group. I primarily study Reinforcement Learning (RL) with the goal of building efficient autonomous sequential decision-making systems that solve long-horizon problems. Currently, I am focussed on automatically synthesizing temporal and state abstractions for transfer in RL and interleaving planning with RL.
+I'm a Ph.D. candidate in Computer Science at [Arizona State University](https://www.asu.edu/), where I work with [Dr. Siddharth Srivastava](https://www.public.asu.edu/~ssriva43/) in the [School of Computing and Augmented Intelligence](https://scai.engineering.asu.edu/). I'm part of the [Autonomous Agents and Intelligent Robots (AAIR)](https://aair-lab.github.io/) research group. My research primarily centers on Reinforcement Learning (RL), with a focus on developing more sample-efficient and scalable autonomous sequential decision-making systems, particularly for long-horizon tasks. Currently, I am investigating the autonomous invention of temporal and state abstractions and the integration of planning with RL to improve generalization and transfer in RL.
 

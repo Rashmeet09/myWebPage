@@ -3,10 +3,10 @@ title: "Autonomous Option Invention for Continual Hierarchical Reinforcement Lea
 authors:
 - Rashmeet Kaur Nayyar
 - Siddharth Srivastava
-date: "2025-04-17T00:00:00Z"
+date: "2025-02-17T00:00:00Z"
 doi: "10.48550/arXiv.2412.16395"
 # Schedule page publish date (NOT publication's date).
-publishDate: "2025-04-17T00:00:00Z"
+publishDate: "2025-02-17T00:00:00Z"
 
 # Publication type.
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
